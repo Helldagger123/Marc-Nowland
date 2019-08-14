@@ -1,4 +1,4 @@
-ndom
+import random
 
 numberofGuesses = 0
 number = random.randint(1,100) # This generates a random number between 1-100
@@ -33,3 +33,4 @@ if guess!=number:
   print("Sorry Dude, The number I was thinking of was " + number + " :)") # this tells the user that the have run out of guesses and tells them what the number was
   
 input("press Enter to Exit")
+
